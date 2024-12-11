@@ -143,7 +143,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 90vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -159,8 +159,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  height: 80vh;
+  gap: 15rem;
+  height: 90vh;
 }
 
 .section-pic-container {
@@ -172,6 +172,7 @@ section {
 }
 
 .section-text {
+  margin-top: -180px;
   align-self: center;
   text-align: center;
 }
@@ -266,12 +267,13 @@ section {
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  margin-top: 8rem;
 }
 
 .about-containers,
@@ -286,7 +288,7 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: 3.5rem;
 }
 
 .details-container {
@@ -315,6 +317,10 @@ section {
 
 #experience {
   position: relative;
+}
+
+.section-text-p1 {
+  margin-top: 15rem;
 }
 
 .experience-sub-title {
