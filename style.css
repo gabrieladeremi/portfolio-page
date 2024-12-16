@@ -159,7 +159,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15rem;
+  gap: 6rem;
   height: 90vh;
 }
 
@@ -172,7 +172,7 @@ section {
 }
 
 .section-text {
-  margin-top: -180px;
+  margin-top: 1rem;
   align-self: center;
   text-align: center;
 }
@@ -262,6 +262,10 @@ section {
 
 #about {
   position: relative;
+
+  .section-text-p1 {
+    margin-top: 8rem;
+  }
 }
 
 .about-containers {
@@ -317,11 +321,12 @@ section {
 
 #experience {
   position: relative;
+
+  .section-text-p1 {
+    margin-top: 20rem;
+  }
 }
 
-.section-text-p1 {
-  margin-top: 15rem;
-}
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
@@ -361,6 +366,10 @@ article .icon {
 
 #projects {
   position: relative;
+
+  .section-text-p1 {
+    margin-top: 8rem;
+  }
 }
 
 .color-container {
